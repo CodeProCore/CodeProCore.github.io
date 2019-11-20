@@ -1,0 +1,119 @@
+.header {
+    height: 800px;
+    width: 100%;
+    padding-top: 36px;
+    background-color: #f3e1d5;
+    background-image: url('../img/header-bg-1.jpg');
+    background-size: cover;
+    background-position: center;   
+}
+
+.header_nav-row {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.header_button {
+    height: 66px;
+    padding-top: 4px;
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: #004cff;
+
+    
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 66px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+    transition:background-color 0.2s ease-in;
+}
+
+.header_nav{
+    color: #404040;
+    font-family: "Teko";
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+
+}
+
+.header_nav-link{
+    position: relative;
+    color: #404040;
+    text-decoration: none;
+    margin-right: 52px;
+}
+
+.header_nav-link::after {
+ position: absolute;
+ right: -30px;
+ top: 11px;
+ content: '';
+ display: block;
+ width: 6px;
+ height: 6px;
+ background-color: #004cff;
+ transform: rotate(45deg);
+}
+
+.header_nav-link:last-child::after {
+    display: none;
+}
+
+.header_nav-link:last-child{
+    margin-right: 0;
+}
+
+.header_nav-link:hover, .header_nav-link--active {
+    color: #004cff;
+}
+
+.header_button:hover {
+    background-color: #0346e0;
+}
+
+.header_promo {
+    max-width: 400px;
+
+}
+
+.header_title {
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-family: Teko;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 2.73px;
+}
+
+.header_promo-button{
+    display: inline-block; 
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 48px;  
+    padding-right: 48px;
+    border: 6px solid #ffffff;
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:background-color 0.2s ease-in;
+
+}
+
+.header_promo-button:hover {
+    color: #f4af23;
+    border-color: #f4af23;
+
+}
